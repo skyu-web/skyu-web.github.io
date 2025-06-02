@@ -1,11 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <title>My First GitHub Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サンプルページ</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #008080;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav {
+      background: #ddd;
+      padding: 0.5em;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #008080;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 2em;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    footer {
+      background-color: #ccc;
+      text-align: center;
+      padding: 1em;
+      font-size: 0.9em;
+      margin-top: 2em;
+    }
+
+    @media screen and (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>こんにちは、GitHub Pages！</h1>
-    <p>これは無料で公開したホームページです。</p>
+  <header>
+    <h1>ようこそ！サンプルページへ</h1>
+  </header>
+
+  <nav>
+    <a href="#">ホーム</a>
+    <a href="#">メニュー</a>
+    <a href="#">お問い合わせ</a>
+  </nav>
+
+  <main>
+    <h2>自己紹介</h2>
+    <p>こんにちは！私はHTMLを学んでいる初心者です。このページは練習用に作ったものです。</p>
+
+    <h3>好きなこと</h3>
+    <ul>
+      <li>コーディング</li>
+      <li>読書</li>
+      <li>コーヒーを飲むこと</li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; 2025 サンプルページ
+  </footer>
 </body>
 </html>
